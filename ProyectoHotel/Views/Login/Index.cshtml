@@ -1,0 +1,140 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión / Registrarse | Nothing4us</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-12 text-center align-self-center py-5">
+                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                        <h6 class="mb-0 pb-3">
+                            <span>INICIAR SESIÓN</span>
+                            @*<span>REGÍSTRESE</span>*@
+                        </h6>
+                        <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+                        <label for="reg-log"></label>
+                        <div class="card-3d-wrap mx-auto">
+                            <div class="card-3d-wrapper">
+                                <div class="card-front">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3 hotel-title">HOTEL ZAFIRO</h4>
+                                            <form class="user" action="@Url.Action("Index","Login")" method="post">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control form-control-user form-style" name="correo" placeholder="Email" value="diegohidrobo@gmail.com">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+
+                                                    <input type="password" class="form-control form-control-user form-style" name="clave" placeholder="Password" value="123">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <div class="form-group">
+                                                    @{if (ViewBag.Error != null)
+                                                        {
+                                                            <div class="alert alert-danger" role="alert">
+                                                                @ViewBag.Error
+                                                            </div>
+                                                        }
+                                                    }
+                                                </div>
+                                                <button class="btn btn-primary btn-block btn-user btn-ingresar btn mt-4" type="submit">Ingresar</button>
+                                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link">¿Olvidó su contraseña?</a></p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                @*<div class="card-back">
+                                    <div class="center-wrap">
+                                        <div class="section text-center">
+                                            <h4 class="mb-4 pb-3">REGÍSTRESE</h4>
+                                            <form>
+                                                <div class="form-group">
+                                                    <input type="text" asp-for="Nombre" class="form-style" placeholder="Su Nombre completo" autocomplete="off">
+                                                    <i class="input-icon uil uil-user"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="email" asp-for="Correo" class="form-style" placeholder="Su Correo electrónico" autocomplete="off">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" asp-for="Clave" class="form-style" placeholder="Su Contraseña" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <button type="submit" class="btn mt-4">ENVIAR</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!--<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/css")
+    <style>
+        body {
+            background-color: gray; /* Cambia el color de fondo a gris */
+        }
+
+        .btn-ingresar {
+            background-color: gray; /* Cambia el color de fondo del botón a gris */
+            color: white; /* Cambia el color de texto del botón a blanco */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">-->
+<!-- Outer Row -->
+<!--<div class="row justify-content-center">
+    <div class="col-xl-10 col-lg-12 col-md-9">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">-->
+<!-- Nested Row within Card Body -->
+<!--<div class="row">
+                            <div class="col-6">
+                                <img src="@Url.Content("~/Imagenes/Zafiro.jpeg")" style="width: 100%;height: 500px;" class="border-right border-primary" />
+                            </div>
+                            <div class="col-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Bienvenido</h1>
+                                    </div>
+
+                                    </form>
+                                    <hr>
+                                    <div class="text-center justify-content-center">
+                                        <p class="text-primary mb-0">Todos los derechos reservados &copy;<a href="#" target="_blank" class="text-danger ml-1"><b>Grupo 1</b></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>-->
