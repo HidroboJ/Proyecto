@@ -178,12 +178,12 @@ h6 span{
   line-height: 22px;
   letter-spacing: 0.5px;
   outline: none;
-  color: #e9e8f1;
-  background-color: #2c2c2e;
+  color: #2b13e0;
+  background-color: #eb8825;
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  box-shadow: 0 4px 8px 0 rgba(159, 65, 65, 0.2);
 }
 .form-style:focus,
 .form-style:active {
