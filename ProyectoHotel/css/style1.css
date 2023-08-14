@@ -16,7 +16,7 @@
     font-family: Mulish;
 }
 
-.background {
+.background {/*ajustes del background*/
     content: "";
     position: absolute;
     height: 100vh;
