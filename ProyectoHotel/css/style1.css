@@ -117,7 +117,7 @@ nav:hover .expand-btn,
   color: #544e4e;
 }
 
-.icon {
+.icon {/*centramos en icono*/
   display: flex;
   align-items: center;
 }
