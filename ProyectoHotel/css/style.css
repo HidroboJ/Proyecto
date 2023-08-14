@@ -92,8 +92,8 @@ h6 span{
   background-image: url("hotel.png");
   color:whitesmoke;
   background-repeat: no-repeat;
-  background-size: 40px 40px; /* Tamaño de la imagen */
-  background-position: 70px center; /* Posición de la imagen */
+  background-size: 40px 40px; /* Ajuste del tamano  */
+  background-position: 70px center; /* ajuste de la Posición de la imagen */
   padding-left: 25px; /* Espacio a la izquierda del texto para acomodar la imagen */
 }
 
