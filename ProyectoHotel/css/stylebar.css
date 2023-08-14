@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #555555;
+  background-color: #f2e8e8;
   height: 100%;
   position: fixed;
   left: 0;
@@ -23,7 +23,7 @@
   flex-direction: column;
 }
 
-.logo-container img {
+.logo-container img {/*tamaño de la imagen*/
   max-width: 80%;
 }
 
@@ -47,17 +47,17 @@
   transition: all 0.3s ease-in-out;
 }
 
-.menu li a:hover {
+.menu li a:hover {/*color al hover*/
   background-color: #ccc;
-  color: #555;
+  color: #350202;
 }
 
 .sidebar-toggle {
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background-color: #ccc;
-  color: #555;
+  background-color: #334c3b;
+  color: #121111;
   border: none;
   padding: 10px 20px;
   cursor: pointer;

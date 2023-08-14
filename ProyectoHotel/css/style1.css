@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-:root {
-    --primary-color: #625BFE;
-    --primary-color-dark: #7771F6;    
-    --button-color: #5433FF;
+:root {/*implementar colores en el root*/
+    --primary-color: #201f27;
+    --primary-color-dark: #131314;    
+    --button-color: #78777d;
     --button-color-shadow: #5433FF30;
     --text-color: white;
 }
@@ -16,7 +16,7 @@
     font-family: Mulish;
 }
 
-.background {
+.background {/*ajustes del background*/
     content: "";
     position: absolute;
     height: 100vh;
@@ -70,7 +70,7 @@ main {
   font-size: 1.4rem;
 }
 
-.expand-btn {
+.expand-btn {/*boton*/
   position: absolute;
   top: 50%;
   width: 45px;
@@ -114,15 +114,15 @@ nav:hover .expand-btn,
   align-items: center;
   height: 56px;
   text-decoration: none;
-  color: #fff;
+  color: #544e4e;
 }
 
-.icon {
+.icon {/*centramos en icono*/
   display: flex;
   align-items: center;
 }
 
-.icon img {
+.icon img {/*ajustes en el icono de la img*/
   width: 26px;
   height: 26px;
   margin: auto;
@@ -132,7 +132,7 @@ nav:hover .expand-btn,
   margin-left: 40px;
 }
 
-.sidebar-links .active {
+.sidebar-links .active {/*color a los links*/
   width: 100%;
   text-decoration: none;
   background-color: var(--primary-color-dark);
@@ -140,7 +140,7 @@ nav:hover .expand-btn,
   border-radius: 10px;
 }
 
-body.collapsed nav {
+body.collapsed nav {/*diemension de nav*/
   width: 80px;
 }
 
