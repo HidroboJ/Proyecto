@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
 :root {
-    --primary-color: #625BFE;
-    --primary-color-dark: #7771F6;    
-    --button-color: #5433FF;
+    --primary-color: #201f27;
+    --primary-color-dark: #131314;    
+    --button-color: #78777d;
     --button-color-shadow: #5433FF30;
     --text-color: white;
 }
