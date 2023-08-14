@@ -47,7 +47,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.menu li a:hover {
+.menu li a:hover {/*color al hover*/
   background-color: #ccc;
   color: #350202;
 }
