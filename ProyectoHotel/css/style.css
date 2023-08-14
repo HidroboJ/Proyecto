@@ -211,7 +211,7 @@ h6 span{
     transition: all 200ms linear;
 }
 .form-group input::-moz-placeholder  {
-  color: #0c0927;
+  color: #0b0636;
   opacity: 0.7;
   -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
