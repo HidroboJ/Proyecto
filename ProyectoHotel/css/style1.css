@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-:root {
+:root {/*implementar colores en el root*/
     --primary-color: #201f27;
     --primary-color-dark: #131314;    
     --button-color: #78777d;
