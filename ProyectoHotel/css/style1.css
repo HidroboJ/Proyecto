@@ -140,7 +140,7 @@ nav:hover .expand-btn,
   border-radius: 10px;
 }
 
-body.collapsed nav {
+body.collapsed nav {/*diemension de nav*/
   width: 80px;
 }
 
