@@ -93,7 +93,7 @@ h6 span{
   color:rgb(197, 188, 188);
   background-repeat: no-repeat;
   background-size: 40px 40px; /* Tamaño de la imagen de 40 px */
-  background-position: 70px center; /* Posición de la imagen */
+  background-position: 70px center; /* Posición de la imagen en el Centro */
   padding-left: 25px; /* Espacio a la izquierda del texto para acomodar la imagen */
 }
 
