@@ -49,7 +49,7 @@
 
 .menu li a:hover {
   background-color: #ccc;
-  color: #555;
+  color: #350202;
 }
 
 .sidebar-toggle {
@@ -57,7 +57,7 @@
   bottom: 20px;
   left: 20px;
   background-color: #334c3b;
-  color: #731616;
+  color: #121111;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
