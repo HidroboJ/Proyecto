@@ -23,7 +23,7 @@
   flex-direction: column;
 }
 
-.logo-container img {
+.logo-container img {/*tamaño de la imagen*/
   max-width: 80%;
 }
 
